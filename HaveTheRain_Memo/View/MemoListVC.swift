@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  MemoListVC.swift
 //  HaveTheRain_Memo
 //
 //  Created by 김지우 on 16/02/2020.
@@ -8,13 +8,9 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class MemoListVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
-
-
 }
 
