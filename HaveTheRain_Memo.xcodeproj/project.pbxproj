@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D76AE2F240102650027A9FA /* MemoImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D76AE2E240102650027A9FA /* MemoImageCell.swift */; };
+		0D76AE3324011D710027A9FA /* MemeImageAddBtnCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D76AE3224011D710027A9FA /* MemeImageAddBtnCell.swift */; };
 		0D99A15123F8E5BD00E1E1D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D99A15023F8E5BD00E1E1D0 /* AppDelegate.swift */; };
 		0D99A15323F8E5BD00E1E1D0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D99A15223F8E5BD00E1E1D0 /* SceneDelegate.swift */; };
 		0D99A15A23F8E5BF00E1E1D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D99A15923F8E5BF00E1E1D0 /* Assets.xcassets */; };
@@ -21,6 +23,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0D76AE2E240102650027A9FA /* MemoImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoImageCell.swift; sourceTree = "<group>"; };
+		0D76AE3224011D710027A9FA /* MemeImageAddBtnCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemeImageAddBtnCell.swift; sourceTree = "<group>"; };
 		0D99A14D23F8E5BD00E1E1D0 /* HaveTheRain_Memo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HaveTheRain_Memo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D99A15023F8E5BD00E1E1D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0D99A15223F8E5BD00E1E1D0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -138,6 +142,8 @@
 			isa = PBXGroup;
 			children = (
 				0DFE01F023F8FE2E006D113A /* MemoDetailVC.swift */,
+				0D76AE2E240102650027A9FA /* MemoImageCell.swift */,
+				0D76AE3224011D710027A9FA /* MemeImageAddBtnCell.swift */,
 			);
 			path = Detail;
 			sourceTree = "<group>";
@@ -268,6 +274,8 @@
 			files = (
 				0DFE01EC23F8F898006D113A /* Extensions.swift in Sources */,
 				0DFE01F123F8FE2E006D113A /* MemoDetailVC.swift in Sources */,
+				0D76AE2F240102650027A9FA /* MemoImageCell.swift in Sources */,
+				0D76AE3324011D710027A9FA /* MemeImageAddBtnCell.swift in Sources */,
 				0DFE01E023F8EF8E006D113A /* MemoListVC.swift in Sources */,
 				0D99A15123F8E5BD00E1E1D0 /* AppDelegate.swift in Sources */,
 				0D99A15323F8E5BD00E1E1D0 /* SceneDelegate.swift in Sources */,
