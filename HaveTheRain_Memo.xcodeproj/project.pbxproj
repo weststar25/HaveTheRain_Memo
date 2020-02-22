@@ -3,28 +3,40 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D76AE2F240102650027A9FA /* MemoImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D76AE2E240102650027A9FA /* MemoImageCell.swift */; };
+		0D76AE3324011D710027A9FA /* MemeImageAddBtnCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D76AE3224011D710027A9FA /* MemeImageAddBtnCell.swift */; };
 		0D99A15123F8E5BD00E1E1D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D99A15023F8E5BD00E1E1D0 /* AppDelegate.swift */; };
 		0D99A15323F8E5BD00E1E1D0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D99A15223F8E5BD00E1E1D0 /* SceneDelegate.swift */; };
-		0D99A15523F8E5BD00E1E1D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D99A15423F8E5BD00E1E1D0 /* ViewController.swift */; };
-		0D99A15823F8E5BD00E1E1D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D99A15623F8E5BD00E1E1D0 /* Main.storyboard */; };
 		0D99A15A23F8E5BF00E1E1D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D99A15923F8E5BF00E1E1D0 /* Assets.xcassets */; };
-		0D99A15D23F8E5BF00E1E1D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D99A15B23F8E5BF00E1E1D0 /* LaunchScreen.storyboard */; };
+		0DFE01E023F8EF8E006D113A /* MemoListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DFE01DF23F8EF8E006D113A /* MemoListVC.swift */; };
+		0DFE01E523F8F026006D113A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DFE01E323F8F026006D113A /* Main.storyboard */; };
+		0DFE01E623F8F026006D113A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DFE01E423F8F026006D113A /* LaunchScreen.storyboard */; };
+		0DFE01E923F8F6AF006D113A /* MemoListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DFE01E823F8F6AF006D113A /* MemoListCell.swift */; };
+		0DFE01EC23F8F898006D113A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DFE01EB23F8F898006D113A /* Extensions.swift */; };
+		0DFE01EE23F8FB90006D113A /* MemoVO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DFE01ED23F8FB90006D113A /* MemoVO.swift */; };
+		0DFE01F123F8FE2E006D113A /* MemoDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DFE01F023F8FE2E006D113A /* MemoDetailVC.swift */; };
 		B5C5A66D46B8B317EF0ED80C /* Pods_HaveTheRain_Memo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BE9C8EF121006FEA61128E9 /* Pods_HaveTheRain_Memo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0D76AE2E240102650027A9FA /* MemoImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoImageCell.swift; sourceTree = "<group>"; };
+		0D76AE3224011D710027A9FA /* MemeImageAddBtnCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemeImageAddBtnCell.swift; sourceTree = "<group>"; };
 		0D99A14D23F8E5BD00E1E1D0 /* HaveTheRain_Memo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HaveTheRain_Memo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D99A15023F8E5BD00E1E1D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0D99A15223F8E5BD00E1E1D0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0D99A15423F8E5BD00E1E1D0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = HaveTheRain_Memo/ViewController.swift; sourceTree = SOURCE_ROOT; };
-		0D99A15723F8E5BD00E1E1D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0D99A15923F8E5BF00E1E1D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0D99A15C23F8E5BF00E1E1D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0D99A15E23F8E5BF00E1E1D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DFE01DF23F8EF8E006D113A /* MemoListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemoListVC.swift; sourceTree = "<group>"; };
+		0DFE01E323F8F026006D113A /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		0DFE01E423F8F026006D113A /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0DFE01E823F8F6AF006D113A /* MemoListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoListCell.swift; sourceTree = "<group>"; };
+		0DFE01EB23F8F898006D113A /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		0DFE01ED23F8FB90006D113A /* MemoVO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoVO.swift; sourceTree = "<group>"; };
+		0DFE01F023F8FE2E006D113A /* MemoDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoDetailVC.swift; sourceTree = "<group>"; };
 		38910E1E498224A478E68CCC /* Pods-HaveTheRain_Memo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HaveTheRain_Memo.release.xcconfig"; path = "Target Support Files/Pods-HaveTheRain_Memo/Pods-HaveTheRain_Memo.release.xcconfig"; sourceTree = "<group>"; };
 		583A55235F2B6531522F5658 /* Pods-HaveTheRain_Memo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HaveTheRain_Memo.debug.xcconfig"; path = "Target Support Files/Pods-HaveTheRain_Memo/Pods-HaveTheRain_Memo.debug.xcconfig"; sourceTree = "<group>"; };
 		5BE9C8EF121006FEA61128E9 /* Pods_HaveTheRain_Memo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HaveTheRain_Memo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -53,7 +65,8 @@
 		0D0F258E23F8EBDB006D2A02 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				0D99A15423F8E5BD00E1E1D0 /* ViewController.swift */,
+				0DFE01E723F8F6A0006D113A /* List */,
+				0DFE01EF23F8FE1A006D113A /* Detail */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -61,6 +74,7 @@
 		0D0F258F23F8EBFF006D2A02 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				0DFE01ED23F8FB90006D113A /* MemoVO.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -68,8 +82,8 @@
 		0D0F259023F8EC2E006D2A02 /* Storyboard */ = {
 			isa = PBXGroup;
 			children = (
-				0D99A15623F8E5BD00E1E1D0 /* Main.storyboard */,
-				0D99A15B23F8E5BF00E1E1D0 /* LaunchScreen.storyboard */,
+				0DFE01E323F8F026006D113A /* Main.storyboard */,
+				0DFE01E423F8F026006D113A /* LaunchScreen.storyboard */,
 			);
 			path = Storyboard;
 			sourceTree = "<group>";
@@ -100,10 +114,38 @@
 				0D99A15E23F8E5BF00E1E1D0 /* Info.plist */,
 				0D0F258E23F8EBDB006D2A02 /* View */,
 				0D0F258F23F8EBFF006D2A02 /* Model */,
+				0DFE01EA23F8F883006D113A /* Utils */,
 				0D0F259023F8EC2E006D2A02 /* Storyboard */,
 				0D99A15923F8E5BF00E1E1D0 /* Assets.xcassets */,
 			);
 			path = HaveTheRain_Memo;
+			sourceTree = "<group>";
+		};
+		0DFE01E723F8F6A0006D113A /* List */ = {
+			isa = PBXGroup;
+			children = (
+				0DFE01DF23F8EF8E006D113A /* MemoListVC.swift */,
+				0DFE01E823F8F6AF006D113A /* MemoListCell.swift */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		0DFE01EA23F8F883006D113A /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				0DFE01EB23F8F898006D113A /* Extensions.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		0DFE01EF23F8FE1A006D113A /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				0DFE01F023F8FE2E006D113A /* MemoDetailVC.swift */,
+				0D76AE2E240102650027A9FA /* MemoImageCell.swift */,
+				0D76AE3224011D710027A9FA /* MemeImageAddBtnCell.swift */,
+			);
+			path = Detail;
 			sourceTree = "<group>";
 		};
 		1212B808FD73248A69DC321E /* Pods */ = {
@@ -112,7 +154,6 @@
 				583A55235F2B6531522F5658 /* Pods-HaveTheRain_Memo.debug.xcconfig */,
 				38910E1E498224A478E68CCC /* Pods-HaveTheRain_Memo.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -176,9 +217,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0D99A15D23F8E5BF00E1E1D0 /* LaunchScreen.storyboard in Resources */,
+				0DFE01E623F8F026006D113A /* LaunchScreen.storyboard in Resources */,
 				0D99A15A23F8E5BF00E1E1D0 /* Assets.xcassets in Resources */,
-				0D99A15823F8E5BD00E1E1D0 /* Main.storyboard in Resources */,
+				0DFE01E523F8F026006D113A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -231,32 +272,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0D99A15523F8E5BD00E1E1D0 /* ViewController.swift in Sources */,
+				0DFE01EC23F8F898006D113A /* Extensions.swift in Sources */,
+				0DFE01F123F8FE2E006D113A /* MemoDetailVC.swift in Sources */,
+				0D76AE2F240102650027A9FA /* MemoImageCell.swift in Sources */,
+				0D76AE3324011D710027A9FA /* MemeImageAddBtnCell.swift in Sources */,
+				0DFE01E023F8EF8E006D113A /* MemoListVC.swift in Sources */,
 				0D99A15123F8E5BD00E1E1D0 /* AppDelegate.swift in Sources */,
 				0D99A15323F8E5BD00E1E1D0 /* SceneDelegate.swift in Sources */,
+				0DFE01EE23F8FB90006D113A /* MemoVO.swift in Sources */,
+				0DFE01E923F8F6AF006D113A /* MemoListCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		0D99A15623F8E5BD00E1E1D0 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0D99A15723F8E5BD00E1E1D0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		0D99A15B23F8E5BF00E1E1D0 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0D99A15C23F8E5BF00E1E1D0 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		0D99A15F23F8E5BF00E1E1D0 /* Debug */ = {
@@ -309,7 +337,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -363,7 +391,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -379,11 +407,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0.0;
 				INFOPLIST_FILE = HaveTheRain_Memo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "HaveTheRain.HaveTheRain-Memo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -397,11 +427,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0.0;
 				INFOPLIST_FILE = HaveTheRain_Memo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "HaveTheRain.HaveTheRain-Memo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
