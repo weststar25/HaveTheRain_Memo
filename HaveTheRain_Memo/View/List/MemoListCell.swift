@@ -12,5 +12,4 @@ class MemoListCell: UITableViewCell {
     @IBOutlet weak var thumbnailImg: UIImageView!
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var summaryLabel: UILabel!
-    
 }

@@ -10,12 +10,8 @@ import Foundation
 import Realm
 import RealmSwift
 
-class MemoListVO: Object {
-    let memos = List<MemoVO>()
-}
-
 class MemoVO: Object {
     @objc dynamic var title: String = ""
     @objc dynamic var content: String = ""
-    @objc dynamic var imageURL: [String] = []
+    @objc dynamic var images: [UIImage] = []
 }
